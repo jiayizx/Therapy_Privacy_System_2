@@ -1,0 +1,28 @@
+category,category priority,user_mentioned,survey_display
+directPII_others,1,The European center of Bright Media is in Berlin.,The European center of Bright Media: Berlin
+directPII_others,1,User's friend’s name is Emily Johnson.,Your friend's name: Emily Johnson
+directPII_others,1,User's father’s name is Jordan Morgan.,Your father's name: Jordan Morgan
+directPII_others,1,The classmate who bullied the user is named Tommy Sanders.,The classmate who bullied you was named Tommy Sanders.
+directPII_self,2,User's own name is Alex Morgan.,Your name: Alex Morgan
+indirectPII_self,3,The user is currently 28 years old.,Your age: 28
+indirectPII_self,3,The user holds a bachelor's degree.,Your education background: Bachelor degree
+indirectPII_self,3,The user is single.,Your marital status: single
+indirectPII_self,3,The user is a Marketing lead.,Your position: marketing lead
+indirectPII_self,3,The user works at Bright Media.,You work at Bright Media
+indirectPII_self,3,The user has lived in New York for the past 18 year. / The users moved to New York City in 2006 at the age of 10.,You've lived in NYC for 18 years/ You moved to NYC in 2006 at the age of 10
+indirectPII_self,3,The user've relocated to Berlin for a month.,You've relocated to Berlin for a month
+indirectPII_self,3,The user was born in Honolulu / in 1996.,You're born in Honolulu / in 1996
+nonPII_others,4,Expanding the European market is the company’s yet-to-be-revealed core strategy.,Expanding the European market is your company’s yet-to-be-revealed core strategy
+nonPII_others,4,Emily is getting married next Saturday in New York.,Emily is getting married next Saturday in NYC
+nonPII_others,4,Emily was diagnosed with Generalized Anxiety Disorder(GAD) as well.,Emily was diagnosed with GAD
+nonPII_others,4,Emily also attended Cognitive-Behavioral Therapy (CBT) for her recurrent anxiety.,Emily attended the Cognitive-Behavioral Therapy (CBT) for recurrent anxiety
+nonPII_others,4,Emily experienced sexual harassment in high school,Emily experienced sexual harassment in high school
+nonPII_self,5,The user relocated to Berlin to expand the European market.,You relocated to Berlin to expand the European market
+nonPII_self,5,The user is in a key role for the company's core startegy.,You play a key role in the company’s core strategy
+nonPII_self,5,The user relies on medication (Ambien/Zolpidam) for insomnia.,Your rely on medicine (Ambien/Zolpidem) for insomnia
+nonPII_self,5,The user moved to NYC because of father's job.,You moved to NYC because of your father’s job
+nonPII_self,5,The user was bullied by a classmate in school for three years.,You were bullied by a classmate in school for three years
+nonPII_self,5,The user was mocked for the accent.,You were mocked for your accent
+nonPII_self,5,The user has experienced mild anxiety ever since being bullied.,You has experienced mild anxiety ever since being bullied
+nonPII_self,5,The user was diagnosed with Generalized Anxiety Disorder (GAD) at the age of 20.,You're diagnosed with Generalized Anxiety Disorder (GAD) at the age of 20
+nonPII_self,5,The user had a six-month Cognitive-Behavioral Therapy (CBT) at the age of 20.,You had a six-month Cognitive-Behavioral Therapy (CBT) at the age of 20

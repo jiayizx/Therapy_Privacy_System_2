@@ -1,0 +1,16 @@
+openai
+pydantic>=2
+openrouter
+streamlit
+streamlit-extras
+st_pages
+pathlib
+python-dotenv
+gymnasium
+torch
+pymongo[srv]
+boto3
+streamlit-survey
+firebase-admin
+web-browser
+pytest

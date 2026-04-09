@@ -1,0 +1,22 @@
+# Ignore the secrets.toml file in the webapp/.streamlit directory
+webapp/.streamlit/secrets.toml
+
+# Ignore all log files with .log extension
+*.log
+*.json
+
+# ignore csv files
+survey_one_responses.csv
+survey_two_responses.csv
+
+# Add all the pycache directories including sub directories to the .gitignore file
+__pycache__/*
+*/__pycache__/*
+**/__pycache__/*
+
+# Add all the pycache files to the .gitignore file
+*.pyc
+
+# exclude retrieve_data/data directory
+retrieve_data/data
+analysis/data
