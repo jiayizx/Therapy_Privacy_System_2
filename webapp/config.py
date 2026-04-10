@@ -10,9 +10,9 @@ MAX_TURNS = 25
 MIN_INTERACTION_TIME = 540  # seconds
 WORDS_LIMIT = 150
 
-AGENT_MODEL = "openai/gpt-4.1-mini"   # used by therapy_system agent routing (needs prefix)
-DETECTION_MODEL = "gpt-4.1-mini"      # used by direct OpenAI API calls
-PERSONA_MODEL = "gpt-4.1-mini"        # used by direct OpenAI API calls
+AGENT_MODEL = "openai/gpt-4.1"   # used by therapy_system agent routing (needs prefix)
+DETECTION_MODEL = "openai/gpt-4.1"      # used by direct OpenAI API calls
+PERSONA_MODEL = "openai/gpt-4.1-mini"        # used by direct OpenAI API calls
 
 # ---------------------------------------------------------------------------
 # Data file paths (relative to project root)
