@@ -254,7 +254,7 @@ def run_conversation():
     max_iter = st.session_state.max_iterations
     min_iter = st.session_state.iterations
     elapsed = time.time() - st.session_state.start_time
-    past_min = cur >= min_iter or elapsed >= MIN_INTERACTION_TIME
+    past_min = cur >= min_iter
     past_max = cur >= max_iter
 
     # ── Max reached: mandatory survey ────────────────────────────────

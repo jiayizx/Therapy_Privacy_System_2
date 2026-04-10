@@ -5,8 +5,8 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # Chat settings
 # ---------------------------------------------------------------------------
-MIN_TURNS = 2
-MAX_TURNS = 6
+MIN_TURNS = 21
+MAX_TURNS = 25
 MIN_INTERACTION_TIME = 540  # seconds
 WORDS_LIMIT = 150
 
