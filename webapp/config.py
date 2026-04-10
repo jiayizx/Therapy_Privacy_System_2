@@ -24,7 +24,7 @@ UNN_INFO_CSV = "unn_info.csv"
 # ---------------------------------------------------------------------------
 # External URLs
 # ---------------------------------------------------------------------------
-PROLIFIC_URL = "https://app.prolific.co/submissions/complete?cc=CWU9VX3E"
+PROLIFIC_URL = "https://app.prolific.com/submissions/complete?cc=CFUSO5QT"
 
 # ---------------------------------------------------------------------------
 # Survey display sizes

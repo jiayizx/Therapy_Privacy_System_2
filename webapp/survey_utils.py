@@ -272,6 +272,9 @@ def get_user_selections():
     if not st.session_state.user_nec_reasons_entered:
         if st.session_state.user_selections:
             st.subheader("Why you think following information is :blue[necessary] to share for the therapy session?")
+            st.info(
+                f"**Required:** In each box, write at least **{MIN_REASONING_WORDS} words** of reasoning."
+            )
             for key in st.session_state.user_selections:
                 c1, c2 = st.columns(2)
                 c1.write(survey_info[key]["survey_display"])
@@ -297,6 +300,9 @@ def get_user_selections():
     if not st.session_state.user_unnec_reasons_entered:
         if st.session_state.user_non_selections:
             st.header("Why you think following information is :blue[unnecessary] to share for the therapy session, but you still share that with the chatbot?")
+            st.info(
+                f"**Required:** In each box, write at least **{MIN_REASONING_WORDS} words** of reasoning."
+            )
             for key in st.session_state.user_non_selections:
                 c1, c2 = st.columns(2)
                 c1.write(survey_info[key]["survey_display"])

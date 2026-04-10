@@ -74,16 +74,16 @@ def _save(collection: str, prefix: str, prolific_id: str, data: dict):
 # ---------------------------------------------------------------------------
 
 def save_chat_history(prolific_id: str, chat_history):
-    _save("group_one_chat_histories", "chat", prolific_id, {"chat_history": chat_history})
+    _save("group_two_chat_histories_2026", "chat", prolific_id, {"chat_history": chat_history})
 
 
 def save_survey_one(prolific_id: str, survey_data):
-    _save("group_one_survey_one_responses", "survey_one", prolific_id, {"survey_data": survey_data})
+    _save("group_two_survey_one_responses_2026", "survey_one", prolific_id, {"survey_data": survey_data})
 
 
 def save_survey_two(prolific_id: str, feedback: dict):
-    _save("group_one_survey_two_responses", "survey_two", prolific_id, feedback)
+    _save("group_two_survey_two_responses_2026", "survey_two", prolific_id, feedback)
 
 
 def save_survey_three(prolific_id: str, responses: dict):
-    _save("group_one_survey_three_responses", "survey_three", prolific_id, {"survey_data": responses})
+    _save("group_two_survey_three_responses_2026", "survey_three", prolific_id, {"survey_data": responses})
